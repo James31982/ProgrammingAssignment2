@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 makeCacheMatrix <- function(x = matrix()) {
         
         ## x: my square invertible matrix
@@ -23,12 +24,22 @@ makeCacheMatrix <- function(x = matrix()) {
              get = get,
              setInverse = setInverse,
              getInverse = getInverse)
+=======
+## Put comments here that give an overall description of what your
+## functions do
+
+## Write a short comment describing this function
+
+makeCacheMatrix <- function(x = matrix()) {
+
+>>>>>>> origin/master
 }
 
 
 ## Write a short comment describing this function
 
 cacheSolve <- function(x, ...) {
+<<<<<<< HEAD
         
         ## x: output of the function makeCacheMatrix()
         ## returns: inverse of the original matrix input to makeCacheMatrix() function
@@ -51,3 +62,7 @@ cacheSolve <- function(x, ...) {
         inv
 }
 
+=======
+        ## Return a matrix that is the inverse of 'x'
+}
+>>>>>>> origin/master
